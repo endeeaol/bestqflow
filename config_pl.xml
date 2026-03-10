@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>bestqflow</name>
+    <displayName><![CDATA[Best Qflow]]></displayName>
+    <version><![CDATA[0.3.0]]></version>
+    <description><![CDATA[Obsługa bilet&oacute;w eventowych i eksport&oacute;w do Qflow.]]></description>
+    <author><![CDATA[bestlab]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

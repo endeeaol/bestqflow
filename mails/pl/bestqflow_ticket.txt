@@ -1,0 +1,9 @@
+
+Dzień dobry {firstname} {lastname},
+
+w załączniku przesyłamy bilety PDF na wydarzenie {event_title}.
+Miasto: {city}
+Data: {event_date}
+Zamówienie: #{order_id}
+
+Do zobaczenia!

@@ -1,0 +1,98 @@
+.bestqflow-product-events {
+  margin: 18px 0 22px;
+}
+
+.bestqflow-label {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+}
+
+.bestqflow-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.bestqflow-event-radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.bestqflow-event-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: all .2s ease;
+  user-select: none;
+}
+
+.bestqflow-event-label:hover {
+  border-color: #bcbcbc;
+}
+
+.bestqflow-event-radio:checked + .bestqflow-event-label {
+  color: #fff;
+  background: #2f89e2;
+  border-color: #2f89e2;
+}
+
+.bestqflow-add-to-cart-disabled,
+.add-to-cart:disabled,
+button[data-button-action="add-to-cart"]:disabled {
+  opacity: 0.45 !important;
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
+.bestqflow-add-to-cart-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.bestqflow-event-radio {
+  display: none;
+}
+
+.bestqflow-options {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.bestqflow-event-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 116px;
+  min-height: 54px;
+  padding: 10px 18px;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.bestqflow-event-radio:checked + .bestqflow-event-label {
+  background: #1e73ff;
+  border-color: #1e73ff;
+  color: #fff;
+}
+
+.bestqflow-label {
+  margin-bottom: 14px;
+  font-weight: 600;
+}
